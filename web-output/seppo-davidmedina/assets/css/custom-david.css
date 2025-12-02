@@ -1,17 +1,90 @@
 /*
     Custom CSS for David Medina Personal Website
     4 Frentes de Trabajo: Analitica Estrategica, IA con Proposito, Fe en Accion, Transformacion Agil
+
+    Design System:
+    - Colors: #0B0C10, #1F2833, #C5C6C7, #66FCF1, #45A29E
+    - Fonts: Lato (sans-serif) + Cousine (monospace)
+    - Source: docs/DESIGN_SYSTEM.md
 */
+
+/* ===================================
+    Google Fonts Import
+====================================== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Cousine:wght@400;700&display=swap');
+
+/* ===================================
+    CSS Variables - Design System
+====================================== */
+:root {
+    /* Backgrounds */
+    --bg-primary: #0B0C10;
+    --bg-secondary: #1F2833;
+
+    /* Text */
+    --text-primary: #FFFFFF;
+    --text-secondary: #C5C6C7;
+
+    /* Accent Colors */
+    --accent-primary: #66FCF1;
+    --accent-secondary: #45A29E;
+
+    /* 4 Frentes Colors */
+    --frente-analitica: #2563eb;
+    --frente-ia: #7c3aed;
+    --frente-fe: #dc2626;
+    --frente-agil: #059669;
+
+    /* Fonts */
+    --font-primary: 'Lato', sans-serif;
+    --font-mono: 'Cousine', monospace;
+}
+
+/* ===================================
+    Global Typography Overrides
+====================================== */
+body {
+    font-family: var(--font-primary);
+    background-color: var(--bg-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
+}
+
+.big-text {
+    font-family: var(--font-primary);
+    font-weight: 900;
+}
+
+/* Monospace for code/stats */
+.mono, code, .frente-tag, .stat-number {
+    font-family: var(--font-mono);
+}
+
+/* ===================================
+    Global Color Overrides
+====================================== */
+body {
+    color: var(--text-primary);
+}
+
+a {
+    color: var(--accent-primary);
+}
+
+a:hover {
+    color: var(--accent-secondary);
+}
 
 /* ===================================
     Logo Text with Gradient Border
 ====================================== */
-
 .logo-dm {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #2563eb 0%, #7c3aed 33%, #dc2626 66%, #059669 100%);
+    background: linear-gradient(135deg, var(--frente-analitica) 0%, var(--frente-ia) 33%, var(--frente-fe) 66%, var(--frente-agil) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,29 +95,35 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #0a0a0a;
+    background: var(--bg-secondary);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 16px;
     font-weight: 700;
-    color: #fff;
+    font-family: var(--font-primary);
+    color: var(--text-primary);
     letter-spacing: 1px;
+}
+
+/* ===================================
+    Header Styling
+====================================== */
+.header-holder {
+    background-color: var(--bg-secondary);
 }
 
 /* ===================================
     Language Selector - Hidden in Header
     (Moved to Hero as big buttons)
 ====================================== */
-
 .lang-selector {
-    display: none; /* Hidden - now in Hero */
+    display: none;
 }
 
 /* ===================================
     Language Selector in Hero - Big Buttons
 ====================================== */
-
 .lang-selector-hero {
     display: flex;
     justify-content: center;
@@ -60,36 +139,39 @@
     justify-content: center;
     width: 120px;
     height: 80px;
-    background: rgba(0, 0, 0, 0.6);
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: rgba(31, 40, 51, 0.8);
+    border: 2px solid rgba(102, 252, 241, 0.3);
     border-radius: 12px;
-    color: #fff;
+    color: var(--text-primary);
     text-decoration: none;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
 }
 
 .lang-selector-hero a:hover {
-    background: rgba(71, 234, 78, 0.2);
-    border-color: #47ea4e;
+    background: rgba(102, 252, 241, 0.15);
+    border-color: var(--accent-primary);
     transform: translateY(-5px);
 }
 
 .lang-selector-hero a.active {
-    background: rgba(71, 234, 78, 0.15);
-    border-color: #47ea4e;
+    background: rgba(102, 252, 241, 0.1);
+    border-color: var(--accent-primary);
 }
 
 .lang-selector-hero .lang-code {
     font-size: 24px;
     font-weight: 700;
+    font-family: var(--font-primary);
     letter-spacing: 2px;
     margin-bottom: 5px;
+    color: var(--accent-primary);
 }
 
 .lang-selector-hero .lang-name {
     font-size: 11px;
-    color: #b3b3b3;
+    font-family: var(--font-mono);
+    color: var(--text-secondary);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -110,18 +192,71 @@
 }
 
 /* ===================================
+    Hero Section
+====================================== */
+#home {
+    background-color: var(--bg-primary);
+}
+
+#home .big-text span {
+    color: var(--accent-primary) !important;
+}
+
+/* Button Styles */
+.button {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    background-color: var(--accent-primary);
+    color: var(--bg-primary) !important;
+    border-color: var(--accent-primary);
+}
+
+.button:hover {
+    background-color: var(--accent-secondary);
+    border-color: var(--accent-secondary);
+}
+
+/* Secondary button (outline) */
+.button[style*="transparent"] {
+    color: var(--accent-primary) !important;
+    border-color: var(--accent-primary) !important;
+}
+
+.button[style*="transparent"]:hover {
+    background-color: rgba(102, 252, 241, 0.1) !important;
+}
+
+/* ===================================
     4 Frentes - Expertise Hub Section
     Single Row Layout
 ====================================== */
-
 #expertise {
-    background-color: #000;
+    background-color: var(--bg-primary);
     padding-bottom: 50px;
 }
 
 #expertise .section-wrapper {
     max-width: 1400px !important;
     padding: 0 20px;
+}
+
+#expertise .page-title-holder {
+    background-color: var(--accent-primary);
+}
+
+#expertise .entry-title {
+    color: var(--bg-primary);
+    font-family: var(--font-primary);
+}
+
+#expertise .title-description-up {
+    color: var(--accent-secondary);
+    font-family: var(--font-mono);
+    letter-spacing: 3px;
+}
+
+#expertise .medium-text {
+    font-family: var(--font-primary);
 }
 
 .expertise-grid {
@@ -140,7 +275,7 @@
     transition: all 0.4s ease;
     position: relative;
     overflow: hidden;
-    border-right: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(102, 252, 241, 0.1);
 }
 
 .frente-card:last-child {
@@ -149,7 +284,7 @@
 
 .frente-card:hover {
     transform: translateY(-5px);
-    background: rgba(255,255,255,0.02);
+    background: rgba(102, 252, 241, 0.02);
 }
 
 .frente-card::before {
@@ -168,20 +303,20 @@
 }
 
 /* Frente Colors */
-.frente-analitica::before { background-color: #2563eb; }
-.frente-ia::before { background-color: #7c3aed; }
-.frente-fe::before { background-color: #dc2626; }
-.frente-agil::before { background-color: #059669; }
+.frente-analitica::before { background-color: var(--frente-analitica); }
+.frente-ia::before { background-color: var(--frente-ia); }
+.frente-fe::before { background-color: var(--frente-fe); }
+.frente-agil::before { background-color: var(--frente-agil); }
 
-.frente-analitica .frente-icon { color: #2563eb; }
-.frente-ia .frente-icon { color: #7c3aed; }
-.frente-fe .frente-icon { color: #dc2626; }
-.frente-agil .frente-icon { color: #059669; }
+.frente-analitica .frente-icon { color: var(--frente-analitica); }
+.frente-ia .frente-icon { color: var(--frente-ia); }
+.frente-fe .frente-icon { color: var(--frente-fe); }
+.frente-agil .frente-icon { color: var(--frente-agil); }
 
-.frente-analitica:hover h4 { color: #2563eb; }
-.frente-ia:hover h4 { color: #7c3aed; }
-.frente-fe:hover h4 { color: #dc2626; }
-.frente-agil:hover h4 { color: #059669; }
+.frente-analitica:hover h4 { color: var(--frente-analitica); }
+.frente-ia:hover h4 { color: var(--frente-ia); }
+.frente-fe:hover h4 { color: var(--frente-fe); }
+.frente-agil:hover h4 { color: var(--frente-agil); }
 
 .frente-image {
     width: 100%;
@@ -210,7 +345,8 @@
 
 .frente-card h4 {
     font-size: 18px;
-    color: #fff;
+    font-family: var(--font-primary);
+    color: var(--text-primary);
     font-weight: 700;
     margin-bottom: 10px;
     transition: color 0.3s ease;
@@ -219,7 +355,8 @@
 
 .frente-card p {
     font-size: 13px;
-    color: #b3b3b3;
+    font-family: var(--font-primary);
+    color: var(--text-secondary);
     line-height: 1.6;
     margin-bottom: 15px;
 }
@@ -234,8 +371,10 @@
 
 .frente-tag {
     font-size: 11px;
-    color: #888;
-    background: rgba(255,255,255,0.05);
+    font-family: var(--font-mono);
+    color: var(--accent-primary);
+    background: rgba(102, 252, 241, 0.1);
+    border: 1px solid rgba(102, 252, 241, 0.2);
     padding: 4px 10px;
     border-radius: 15px;
     letter-spacing: 0.5px;
@@ -245,8 +384,9 @@
     display: inline-block;
     margin-top: 20px;
     font-size: 13px;
+    font-family: var(--font-mono);
     letter-spacing: 2px;
-    color: #fff !important;
+    color: var(--text-primary) !important;
     position: relative;
     padding-bottom: 5px;
 }
@@ -258,7 +398,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background: #47ea4e;
+    background: var(--accent-primary);
     transition: width 0.3s ease;
 }
 
@@ -296,7 +436,7 @@
 
     .frente-card {
         flex: 1 1 50%;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
+        border-bottom: 1px solid rgba(102, 252, 241, 0.1);
     }
 
     .frente-card:nth-child(2) {
@@ -330,16 +470,51 @@
 }
 
 /* ===================================
+    About Section
+====================================== */
+#about {
+    background-color: var(--bg-secondary);
+}
+
+#about .page-title-holder {
+    background-color: var(--accent-secondary);
+}
+
+/* ===================================
     Milestones Custom - David's Stats
 ====================================== */
+#milestones {
+    background-color: var(--bg-secondary);
+}
+
+.milestone-header {
+    color: var(--accent-primary) !important;
+    font-family: var(--font-mono);
+}
 
 .milestone-highlight {
-    color: #47ea4e;
+    color: var(--accent-primary);
+}
+
+.milestone-text {
+    font-family: var(--font-primary);
+    color: var(--text-secondary);
 }
 
 /* ===================================
     Skills Section - Technologies Grid
 ====================================== */
+#skills {
+    background-color: var(--bg-primary);
+}
+
+#skills .page-title-holder {
+    background-color: var(--accent-primary);
+}
+
+#skills .entry-title {
+    color: var(--bg-primary);
+}
 
 .tech-grid {
     display: flex;
@@ -349,23 +524,36 @@
 }
 
 .tech-item {
-    background: rgba(71, 234, 78, 0.1);
-    border: 1px solid rgba(71, 234, 78, 0.3);
+    background: rgba(102, 252, 241, 0.1);
+    border: 1px solid rgba(102, 252, 241, 0.3);
     padding: 8px 16px;
     border-radius: 25px;
     font-size: 13px;
-    color: #fff;
+    font-family: var(--font-mono);
+    color: var(--text-primary);
     transition: all 0.3s ease;
 }
 
 .tech-item:hover {
-    background: #47ea4e;
-    color: #000;
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+}
+
+/* Progress bars */
+.skill-holder .skill-percent {
+    background-color: var(--accent-primary);
 }
 
 /* ===================================
     Clients/Projects Section
 ====================================== */
+#clients {
+    background-color: var(--bg-primary);
+}
+
+#portfolio {
+    background-color: var(--bg-secondary);
+}
 
 .client-logo {
     filter: grayscale(100%);
@@ -384,21 +572,29 @@
     padding: 3px 10px;
     border-radius: 15px;
     font-size: 10px;
+    font-family: var(--font-mono);
     letter-spacing: 1px;
     margin: 3px;
 }
 
-.badge-analitica { background: rgba(37, 99, 235, 0.2); color: #2563eb; }
-.badge-ia { background: rgba(124, 58, 237, 0.2); color: #7c3aed; }
-.badge-fe { background: rgba(220, 38, 38, 0.2); color: #dc2626; }
-.badge-agil { background: rgba(5, 150, 105, 0.2); color: #059669; }
+.badge-analitica { background: rgba(37, 99, 235, 0.2); color: var(--frente-analitica); }
+.badge-ia { background: rgba(124, 58, 237, 0.2); color: var(--frente-ia); }
+.badge-fe { background: rgba(220, 38, 38, 0.2); color: var(--frente-fe); }
+.badge-agil { background: rgba(5, 150, 105, 0.2); color: var(--frente-agil); }
 
 /* ===================================
     Contact Section Enhancements
 ====================================== */
+#contact {
+    background-color: var(--bg-primary);
+}
+
+#contact .page-title-holder {
+    background-color: var(--accent-secondary);
+}
 
 .contact-cta {
-    background: linear-gradient(135deg, #47ea4e 0%, #2563eb 100%);
+    background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
     padding: 3px;
     border-radius: 50px;
     display: inline-block;
@@ -407,22 +603,39 @@
 
 .contact-cta a {
     display: block;
-    background: #000;
-    color: #fff !important;
+    background: var(--bg-primary);
+    color: var(--text-primary) !important;
     padding: 15px 40px;
     border-radius: 50px;
     font-size: 14px;
+    font-family: var(--font-primary);
     letter-spacing: 2px;
     transition: all 0.3s ease;
 }
 
 .contact-cta a:hover {
     background: transparent;
+    color: var(--bg-primary) !important;
+}
+
+/* Form styling */
+input, textarea {
+    font-family: var(--font-primary);
+    background-color: var(--bg-secondary) !important;
+    border-color: rgba(102, 252, 241, 0.2) !important;
+    color: var(--text-primary) !important;
+}
+
+input:focus, textarea:focus {
+    border-color: var(--accent-primary) !important;
 }
 
 /* ===================================
     Footer Customization
 ====================================== */
+.footer {
+    background-color: var(--bg-primary);
+}
 
 .footer .frentes-mini {
     display: flex;
@@ -438,10 +651,17 @@
     display: inline-block;
 }
 
+.footer a {
+    color: var(--accent-secondary);
+}
+
+.footer a:hover {
+    color: var(--accent-primary);
+}
+
 /* ===================================
     Scroll Animations
 ====================================== */
-
 .fade-in-up {
     opacity: 0;
     transform: translateY(30px);
@@ -454,9 +674,36 @@
 }
 
 /* ===================================
+    Global Section Styling
+====================================== */
+.section {
+    background-color: var(--bg-primary);
+}
+
+.page-title-holder {
+    background-color: var(--accent-primary);
+}
+
+.page-title-holder .entry-title {
+    color: var(--bg-primary);
+    font-family: var(--font-primary);
+}
+
+/* ===================================
+    Menu Styling
+====================================== */
+.main-menu a {
+    font-family: var(--font-primary);
+    color: var(--text-secondary) !important;
+}
+
+.main-menu a:hover {
+    color: var(--accent-primary) !important;
+}
+
+/* ===================================
     Print Styles
 ====================================== */
-
 @media print {
     .header-holder,
     .lang-selector,
