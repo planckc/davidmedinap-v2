@@ -225,14 +225,153 @@ blockquote::before,
 }
 
 /* ===================================
-    Hero Section
+    Hero Section - Split Screen Layout
 ====================================== */
 #home {
+    background-color: var(--bg-primary) !important;
+}
+
+.hero-split {
+    display: flex;
+    min-height: 100vh;
     background-color: var(--bg-primary);
+}
+
+.hero-content {
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 80px;
+}
+
+.hero-photo {
+    flex: 0 0 40%;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#home .big-text {
+    color: var(--text-primary);
+    margin-bottom: 30px;
 }
 
 #home .big-text span {
     color: var(--accent-primary) !important;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    color: var(--text-secondary);
+    margin: 20px 0 30px 0;
+    font-family: var(--font-primary);
+    line-height: 1.6;
+}
+
+.typed-cursor {
+    color: var(--accent-primary);
+    font-weight: 100;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+}
+
+.hero-meta {
+    font-size: 16px;
+    color: var(--text-secondary);
+    margin-bottom: 40px;
+    font-family: var(--font-primary);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero-buttons .button {
+    font-family: var(--font-primary) !important;
+    font-weight: 700 !important;
+    padding: 12px 30px !important;
+    letter-spacing: 1px;
+}
+
+.hero-buttons .button.outline {
+    background-color: transparent !important;
+    color: var(--accent-primary) !important;
+    border: 2px solid var(--accent-primary) !important;
+}
+
+.hero-buttons .button.outline:hover {
+    background-color: rgba(102, 252, 241, 0.15) !important;
+}
+
+/* Responsive - Hero Split */
+@media (max-width: 1200px) {
+    .hero-content {
+        flex: 0 0 55%;
+        padding: 60px 60px;
+    }
+
+    .hero-photo {
+        flex: 0 0 45%;
+    }
+
+    .hero-subtitle {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-split {
+        flex-direction: column-reverse;
+    }
+
+    .hero-content,
+    .hero-photo {
+        flex: 1;
+    }
+
+    .hero-content {
+        padding: 80px 60px;
+        justify-content: flex-end;
+    }
+
+    .hero-photo {
+        min-height: 50vh;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-content {
+        padding: 60px 30px;
+        justify-content: center;
+    }
+
+    #home .big-text {
+        font-size: 32px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .hero-photo {
+        min-height: 40vh;
+    }
 }
 
 /* Button Styles - Override ALL template buttons */

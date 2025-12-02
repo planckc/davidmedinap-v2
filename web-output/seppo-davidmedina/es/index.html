@@ -66,41 +66,64 @@
 
             <div id="content" class="site-content center-relative">
 
-                <!-- Home Section -->
-                <div id="home" class="section no-page-title" style="background-image: url('../assets/images/hero_image_01.jpg');">
-                    <div class="section-wrapper block content-1170 center-relative">
-                        <div class="content-wrapper">
-                            <!-- Language Selector - Big Buttons -->
-                            <div class="lang-selector-hero">
-                                <a href="../es/index.html" class="active">
-                                    <span class="lang-code">ES</span>
-                                    <span class="lang-name">Espanol</span>
-                                </a>
-                                <a href="../en/index.html">
-                                    <span class="lang-code">EN</span>
-                                    <span class="lang-name">English</span>
-                                </a>
-                                <a href="../fr/index.html">
-                                    <span class="lang-code">FR</span>
-                                    <span class="lang-name">Francais</span>
-                                </a>
-                            </div>
+                <!-- Home Section - Hero Split Screen -->
+                <div id="home" class="hero-split">
+                    <div class="hero-content">
+                        <!-- Language Selector - Big Buttons -->
+                        <div class="lang-selector-hero">
+                            <a href="../es/index.html" class="active">
+                                <span class="lang-code">ES</span>
+                                <span class="lang-name">Espanol</span>
+                            </a>
+                            <a href="../en/index.html">
+                                <span class="lang-code">EN</span>
+                                <span class="lang-name">English</span>
+                            </a>
+                            <a href="../fr/index.html">
+                                <span class="lang-code">FR</span>
+                                <span class="lang-name">Francais</span>
+                            </a>
+                        </div>
 
-                            <h1 class="big-text">
-                                Transformando<br>
-                                Datos en <span style="color: #66FCF1;">Decisiones</span>
-                            </h1>
-                            <p style="color: #fff; font-size: 22px; margin-bottom: 30px;">
-                                Senior BI Developer & AI Context Engineering Architect<br>
-                                <span style="color: #b3b3b3;">20+ anos de experiencia | Montreal, Canada</span>
-                            </p>
-                            <div class="button-holder text-left">
-                                <a href="#expertise" class="button">EXPLORAR MIS SERVICIOS</a>
-                                <a href="https://zcal.co/i/1mbSU6B9" target="_blank" class="button" style="background: transparent; border-color: #fff; color: #fff; margin-left: 15px;">AGENDAR REUNION</a>
-                            </div>
+                        <h1 class="big-text">
+                            Transformando<br>
+                            Datos en <span>Decisiones</span>
+                        </h1>
+
+                        <p class="hero-subtitle">
+                            <span class="typed-strings" style="display: none;">
+                                <span>Transformo datos en decisiones estratégicas</span>
+                                <span>Creo soluciones de IA con propósito</span>
+                                <span>Lidero transformación digital ágil</span>
+                            </span>
+                            <span class="typed"></span>
+                        </p>
+
+                        <p class="hero-meta">
+                            20+ años de experiencia | Montreal, Canada
+                        </p>
+
+                        <div class="hero-buttons">
+                            <a href="#expertise" class="button">EXPLORAR MIS SERVICIOS</a>
+                            <a href="https://zcal.co/i/1mbSU6B9" target="_blank" class="button outline">AGENDAR REUNIÓN</a>
                         </div>
                     </div>
+
+                    <div class="hero-photo" style="background-image: url('../assets/img/david/IMG_20201122_152040.jpg');"></div>
                 </div>
+
+                <!-- Typed.js Script -->
+                <script src="../assets/js/typed.js"></script>
+                <script>
+                    var typed = new Typed('.typed', {
+                        stringsElement: '.typed-strings',
+                        typeSpeed: 50,
+                        backSpeed: 30,
+                        backDelay: 2000,
+                        loop: true,
+                        cursorChar: '|'
+                    });
+                </script>
 
                 <!-- Expertise Section - 4 Frentes -->
                 <div id="expertise" class="section">
