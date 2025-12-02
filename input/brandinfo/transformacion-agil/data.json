@@ -1,0 +1,135 @@
+{
+  "id": "transformacion-agil",
+  "nombre": {
+    "es": "Transformación Ágil",
+    "en": "Agile Transformation",
+    "fr": "Transformation Agile"
+  },
+  "descripcion_corta": {
+    "es": "Liderazgo de proyectos y transformaciones organizacionales con metodologías ágiles",
+    "en": "Project leadership and organizational transformations with agile methodologies",
+    "fr": "Leadership de projets et transformations organisationnelles avec méthodologies agiles"
+  },
+  "icono": "rocket",
+  "color": "#059669",
+  "metodologias": [
+    "Scrum",
+    "Kanban",
+    "SAFe",
+    "PMI (PMBOK)",
+    "OPM3",
+    "Program Management",
+    "Portfolio Management",
+    "DevOps",
+    "CI/CD",
+    "Lean",
+    "Six Sigma"
+  ],
+  "certificaciones": [
+    {
+      "nombre": "PMP - Project Management Professional",
+      "organizacion": "PMI",
+      "periodo": "2012-2015",
+      "id": "1564079"
+    },
+    {
+      "nombre": "Scrum Master Certified (SMC)",
+      "organizacion": "Scrum Alliance",
+      "ano": 2015
+    },
+    {
+      "nombre": "Postgraduate Agile Projects & Product Management",
+      "organizacion": "IEBS Barcelona",
+      "ano": 2014,
+      "calificacion": "A+"
+    },
+    {
+      "nombre": "DevOps Essentials Professional Certificate",
+      "organizacion": "Certiprof"
+    }
+  ],
+  "logros": {
+    "proyectos_liderados": "100+",
+    "proyectos_migracion_stefanini": "60+",
+    "presupuesto_gestionado_usd": "1,000,000",
+    "colaboradores_coordinados": "50+",
+    "stakeholders_manejados": "1000+"
+  },
+  "industrias": [
+    "Oil & Gas",
+    "Banca y Finanzas",
+    "Gobierno y Sector Público",
+    "Tecnología e Innovación",
+    "Arquitectura y Construcción"
+  ],
+  "clientes_destacados": [
+    {
+      "nombre": "Stefanini Colombia",
+      "rol": "Data Migration Manager",
+      "logro": "60+ proyectos de migración con 50+ colaboradores",
+      "metodologia": "Scrum"
+    },
+    {
+      "nombre": "Tecnalia",
+      "rol": "IT Senior Project Manager",
+      "logro": "Ecosistema de Innovación TIC ($1M USD)",
+      "metodologia": "PMI"
+    },
+    {
+      "nombre": "Ecopetrol",
+      "rol": "IT Project Manager",
+      "logro": "5+ proyectos IT cerrados exitosamente",
+      "metodologia": "PMI"
+    },
+    {
+      "nombre": "KAP Consultants",
+      "rol": "PMO Consultant",
+      "logro": "Múltiples implementaciones de PMO en 12+ empresas",
+      "metodologia": "PMI/OPM3"
+    },
+    {
+      "nombre": "GoDoWorks Latam",
+      "rol": "Management Data Analyst",
+      "logro": "Transformación hacia empresa orientada a datos y procesos",
+      "metodologia": "Scrum/Kanban/DevOps"
+    },
+    {
+      "nombre": "Citibank",
+      "rol": "Applications Development Responsible",
+      "logro": "10 años de desarrollo y gestión de proyectos",
+      "metodologia": "Gestión tradicional"
+    }
+  ],
+  "proyectos_fe": [
+    {
+      "nombre": "Genesis Montreal",
+      "metodologia": "Scrum + SAFe",
+      "logro": "Liderazgo del equipo de Planeación"
+    },
+    {
+      "nombre": "SINODE.ORG",
+      "metodologia": "Scrum + CI/CD",
+      "logro": "Desarrollo ágil de plataforma"
+    },
+    {
+      "nombre": "MYSION.CO",
+      "metodologia": "Desarrollo iterativo",
+      "logro": "Feedback continuo de comunidad"
+    },
+    {
+      "nombre": "Bethesda International",
+      "metodologia": "Planeación estratégica",
+      "logro": "Definición de visión pastoral y cadena de valor"
+    }
+  ],
+  "proyectos_canada_scrum": [
+    "Desjardins",
+    "Hydro-Québec",
+    "Intact Insurance",
+    "Genesis Montreal"
+  ],
+  "experiencia": {
+    "anos": "20+",
+    "descripcion": "Más de 20 años liderando proyectos, incluyendo PMOs, transformaciones organizacionales y metodologías ágiles"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "acerca-de",
+  "seccion": {
+    "es": "Acerca de",
+    "en": "About",
+    "fr": "À propos"
+  },
+  "perfil": {
+    "nombre": "David Medina",
+    "titulo": {
+      "es": "Senior BI Developer - AI Context Engineering Architect",
+      "en": "Senior BI Developer - AI Context Engineering Architect",
+      "fr": "Senior BI Developer - AI Context Engineering Architect"
+    },
+    "experiencia_anos": "20+",
+    "ubicacion": {
+      "ciudad": "Saint Hubert",
+      "provincia": "QC",
+      "pais": {
+        "es": "Canadá",
+        "en": "Canada",
+        "fr": "Canada"
+      },
+      "area": {
+        "es": "Gran Montreal",
+        "en": "Greater Montreal",
+        "fr": "Grand Montréal"
+      }
+    },
+    "nacionalidad": {
+      "es": "Ciudadano canadiense (originario de Colombia)",
+      "en": "Canadian citizen (originally from Colombia)",
+      "fr": "Citoyen canadien (originaire de Colombie)"
+    }
+  },
+  "idiomas": [
+    {
+      "idioma": {"es": "Español", "en": "Spanish", "fr": "Espagnol"},
+      "nivel": {"es": "Nativo", "en": "Native", "fr": "Natif"}
+    },
+    {
+      "idioma": {"es": "Francés", "en": "French", "fr": "Français"},
+      "nivel": {"es": "Bilingüe", "en": "Bilingual", "fr": "Bilingue"}
+    },
+    {
+      "idioma": {"es": "Inglés", "en": "English", "fr": "Anglais"},
+      "nivel": {"es": "Profesional", "en": "Professional", "fr": "Professionnel"}
+    }
+  ],
+  "roles": [
+    "Developer",
+    "Architect",
+    "Technical Leader",
+    "Team Lead",
+    "AI Projects",
+    "IT Innovator",
+    "Entrepreneur"
+  ],
+  "imagenes": {
+    "avatar": "compartido/img/avatarDavid-small.jpg",
+    "perfil": "compartido/img/david3.jpg",
+    "circulo": "compartido/img/david-circle.png"
+  }
+}

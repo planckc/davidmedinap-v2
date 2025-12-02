@@ -1,0 +1,47 @@
+{
+  "id": "contacto",
+  "seccion": {
+    "es": "Contacto",
+    "en": "Contact",
+    "fr": "Contact"
+  },
+  "informacion": {
+    "email": "davidmedinap@gmail.com",
+    "telefono": "+1 (514) 571-1981",
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/davidmedinap/",
+      "usuario": "davidmedinap"
+    },
+    "sitio_web": "https://davidmedinap.com",
+    "agendar_reunion": {
+      "url": "https://zcal.co/i/1mbSU6B9",
+      "plataforma": "zcal"
+    }
+  },
+  "ubicacion": {
+    "ciudad": "Saint Hubert",
+    "provincia": "QC",
+    "pais": "Canadá",
+    "area": "Gran Montreal"
+  },
+  "redes_sociales": {
+    "mysion": {
+      "nombre": "MYSION",
+      "sitio": "https://mysion.co",
+      "perfil": "https://mysion.co/en/members/david/",
+      "youtube": "https://www.youtube.com/@mysion_comunidad/featured",
+      "facebook": "http://facebook.com/mysioncomunidad",
+      "instagram": "https://www.instagram.com/mysionco/"
+    },
+    "miees": {
+      "nombre": "MIEES",
+      "sitio": "https://miees.mysion.com.co",
+      "youtube": "https://www.youtube.com/channel/UCMUaA5CFj3bjhe-BgPrOXSw"
+    }
+  },
+  "cta": {
+    "es": "Conversemos",
+    "en": "Let's talk",
+    "fr": "Discutons"
+  }
+}

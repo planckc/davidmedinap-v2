@@ -1,0 +1,80 @@
+{
+  "id": "fe-en-accion",
+  "nombre": {
+    "es": "Fe en Acción",
+    "en": "Faith in Action",
+    "fr": "Foi en Action"
+  },
+  "descripcion_corta": {
+    "es": "Tecnología con propósito de fe para conectar comunidades cristianas globales",
+    "en": "Purpose-driven technology for faith to connect global Christian communities",
+    "fr": "Technologie avec objectif de foi pour connecter les communautés chrétiennes mondiales"
+  },
+  "icono": "heart",
+  "color": "#dc2626",
+  "proyectos_principales": [
+    {
+      "id": "sinode",
+      "nombre": "SINODE.ORG",
+      "descripcion": "Plataforma potenciada por IA para comunidades de fe",
+      "cobertura": 4,
+      "ano": 2025,
+      "tecnologias": ["RAG", "LLMs", "ML", "Power BI"],
+      "rol": "Co-Founder"
+    },
+    {
+      "id": "mysion",
+      "nombre": "MYSION.CO",
+      "descripcion": "Red social cristiana global con agentes IA",
+      "cobertura": 4,
+      "url": "https://mysion.co",
+      "metricas": {
+        "miembros": "350+",
+        "idiomas": ["Español", "Inglés"],
+        "estado": "Funcional"
+      },
+      "rol": "Founder & Leader"
+    },
+    {
+      "id": "genesis-montreal",
+      "nombre": "Genesis Montreal",
+      "descripcion": "Transformación digital eclesial con Planning Center, dashboards analíticos y Scrum/SAFe",
+      "cobertura": 4,
+      "periodo": "Ago 2022-Abr 2025",
+      "rol": "Planning Lead"
+    },
+    {
+      "id": "faithtech",
+      "nombre": "FaithTech Americas Online",
+      "descripcion": "Liderazgo de comunidad de tecnólogos de fe en las Américas",
+      "cobertura": 3,
+      "rol": "Labs Lead"
+    },
+    {
+      "id": "miees",
+      "nombre": "MIEES 7x24",
+      "descripcion": "Comunidad IT cristiana con 10+ proyectos para iglesias",
+      "cobertura": 3,
+      "url": "https://miees.mysion.com.co",
+      "periodo": "2014-2021",
+      "rol": "Founder & Leader"
+    },
+    {
+      "id": "bethesda",
+      "nombre": "Bethesda International Church",
+      "descripcion": "Liderazgo de estrategia y operación para iglesia regional en Colombia",
+      "cobertura": 3,
+      "periodo": "2011-2018",
+      "rol": "Planning Manager"
+    }
+  ],
+  "redes_sociales": {
+    "youtube": "https://www.youtube.com/@mysion_comunidad/featured",
+    "facebook": "http://facebook.com/mysioncomunidad",
+    "instagram": "https://www.instagram.com/mysionco/"
+  },
+  "experiencia": {
+    "anos": "14+",
+    "descripcion": "Fundador y líder de comunidades de fe desde 2011 (Bethesda → MIEES → MYSION → FaithTech → SINODE)"
+  }
+}

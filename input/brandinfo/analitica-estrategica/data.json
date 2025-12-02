@@ -1,0 +1,95 @@
+{
+  "id": "analitica-estrategica",
+  "nombre": {
+    "es": "Analítica Estratégica",
+    "en": "Strategic Analytics",
+    "fr": "Analytique Stratégique"
+  },
+  "descripcion_corta": {
+    "es": "Power BI y Business Intelligence para decisiones basadas en datos",
+    "en": "Power BI and Business Intelligence for data-driven decisions",
+    "fr": "Power BI et Business Intelligence pour les décisions basées sur les données"
+  },
+  "icono": "chart-bar",
+  "color": "#2563eb",
+  "tecnologias": [
+    "Power BI",
+    "Microsoft Fabric",
+    "DAX",
+    "Power Query",
+    "Azure Synapse",
+    "SQL Server",
+    "T-SQL",
+    "ETL",
+    "Data Warehousing",
+    "Azure Data Factory",
+    "Python",
+    "R"
+  ],
+  "clientes_destacados": [
+    {
+      "nombre": "Desjardins",
+      "industria": "Finanzas",
+      "proyecto": "Dashboards transversales de presupuesto"
+    },
+    {
+      "nombre": "Hydro-Québec",
+      "industria": "Energía",
+      "proyecto": "Plataforma BI con predicción de retención"
+    },
+    {
+      "nombre": "Intact Insurance",
+      "industria": "Seguros",
+      "proyecto": "Automatización de análisis de marketing"
+    },
+    {
+      "nombre": "Stefanini / Colpensiones",
+      "industria": "Gobierno",
+      "proyecto": "60+ proyectos de migración"
+    },
+    {
+      "nombre": "Ecopetrol",
+      "industria": "Oil & Gas",
+      "proyecto": "Plan de Business Intelligence"
+    },
+    {
+      "nombre": "Citibank",
+      "industria": "Banca",
+      "proyecto": "10 años de análisis y desarrollo"
+    }
+  ],
+  "proyectos_fe": [
+    {
+      "nombre": "SINODE.ORG",
+      "descripcion": "Dashboard de métricas comunitarias"
+    },
+    {
+      "nombre": "MYSION.CO",
+      "descripcion": "Métricas de comunidad y engagement"
+    },
+    {
+      "nombre": "Genesis Montreal",
+      "descripcion": "Dashboards de asimilación, asistencia, retención"
+    },
+    {
+      "nombre": "MIEES 7x24",
+      "descripcion": "Análisis de datos para decisiones del proyecto"
+    },
+    {
+      "nombre": "Bethesda International",
+      "descripcion": "Métricas de crecimiento y participación"
+    }
+  ],
+  "servicios": [
+    "Desarrollo de dashboards en Power BI",
+    "Modelado de datos y arquitectura BI",
+    "Implementación de Microsoft Fabric",
+    "ETL/ELT con Azure Data Factory",
+    "Cálculos DAX avanzados",
+    "Capacitación y mentoría en Power BI"
+  ],
+  "experiencia": {
+    "anos": "20+",
+    "descripcion": "Más de 20 años en análisis y arquitectura de datos"
+  }
+}

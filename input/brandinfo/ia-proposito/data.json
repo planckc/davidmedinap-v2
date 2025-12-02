@@ -1,0 +1,99 @@
+{
+  "id": "ia-proposito",
+  "nombre": {
+    "es": "IA con Propósito",
+    "en": "AI with Purpose",
+    "fr": "IA avec Objectif"
+  },
+  "descripcion_corta": {
+    "es": "Inteligencia artificial para impacto real en negocios y comunidades",
+    "en": "Artificial intelligence for real impact on businesses and communities",
+    "fr": "Intelligence artificielle pour un impact réel sur les entreprises et communautés"
+  },
+  "icono": "brain",
+  "color": "#7c3aed",
+  "tecnologias": [
+    "LangChain",
+    "LlamaIndex",
+    "RAG Systems",
+    "Vector Databases",
+    "Pinecone",
+    "Weaviate",
+    "ChromaDB",
+    "n8n",
+    "Go HighLevel",
+    "Python",
+    "Django",
+    "Flask",
+    "MLFlow",
+    "Azure ML",
+    "GCP",
+    "Docker",
+    "Kubernetes"
+  ],
+  "proyectos_ia": [
+    {
+      "id": "sinode",
+      "nombre": "SINODE.ORG",
+      "descripcion": "RAG para contenido bíblico, personalización con LLMs",
+      "cobertura": 4
+    },
+    {
+      "id": "mysion",
+      "nombre": "MYSION.CO",
+      "descripcion": "Agentes IA como miembros de la comunidad analizando contenido bíblico",
+      "cobertura": 4
+    },
+    {
+      "id": "genesis-montreal",
+      "nombre": "Genesis Montreal",
+      "descripcion": "IA como centro de información estratégica para organizar iniciativas",
+      "cobertura": 4
+    },
+    {
+      "id": "faithtech",
+      "nombre": "FaithTech Americas",
+      "descripcion": "Exploración de herramientas digitales y IA para iniciativas de fe",
+      "cobertura": 3
+    },
+    {
+      "id": "trispark",
+      "nombre": "3Spark - Business Catalyst",
+      "descripcion": "Ingeniería de contexto con LLMs, automatización inteligente con n8n",
+      "cobertura": 3
+    },
+    {
+      "id": "hydro-quebec",
+      "nombre": "Hydro-Québec",
+      "descripcion": "Modelos predictivos de retención con redes neuronales",
+      "cobertura": 3
+    }
+  ],
+  "clientes": [
+    {
+      "nombre": "3Spark - Business Catalyst",
+      "industria": "Marketing Digital / Automatización"
+    },
+    {
+      "nombre": "Hydro-Québec",
+      "industria": "Energía"
+    }
+  ],
+  "servicios": [
+    "Desarrollo de soluciones con IA generativa",
+    "Implementación de sistemas RAG",
+    "Agentes de IA y automatización inteligente",
+    "Fine-tuning de LLMs",
+    "Automatización de marketing con IA",
+    "Consultoría en transformación digital con IA"
+  ],
+  "certificaciones": [
+    "Big Data Engineer - Arcitura",
+    "Big Data Professional - Arcitura",
+    "AEC Intelligence Artificielle - Collège Bois-de-Boulogne"
+  ],
+  "experiencia": {
+    "anos": "20+",
+    "descripcion": "Más de 20 años en desarrollo de software con enfoque en IA"
+  }
+}

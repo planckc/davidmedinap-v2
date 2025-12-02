@@ -1,0 +1,1016 @@
+{
+  "proyectos": [
+    {
+      "id": "sinode",
+      "nombre": "SINODE.ORG",
+      "descripcion_corta": {
+        "es": "Comunidad digital de fe potenciada por IA",
+        "en": "AI-powered faith digital community",
+        "fr": "Communauté numérique de foi alimentée par l'IA"
+      },
+      "descripcion": {
+        "es": "Plataforma Cristo-céntrica que fomenta conexión auténtica, aprendizaje compartido y madurez espiritual colectiva. Arquitectura digital que soporta base de conocimiento, caminos educativos, interacciones comunitarias y workflows de automatización.",
+        "en": "Christ-centered platform fostering authentic connection, shared learning, and collective spiritual maturity. Digital architecture supporting knowledge base, educational pathways, community interactions, and automation workflows.",
+        "fr": "Plateforme centrée sur Christ favorisant la connexion authentique, l'apprentissage partagé et la maturité spirituelle collective."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Dashboard de métricas comunitarias, análisis de engagement y comportamiento de usuarios",
+            "en": "Community metrics dashboard, engagement analysis and user behavior",
+            "fr": "Tableau de bord des métriques communautaires"
+          }
+        },
+        "ia-proposito": {
+          "aplica": true,
+          "descripcion": {
+            "es": "RAG para contenido bíblico, personalización con LLMs, recomendaciones de comunidad",
+            "en": "RAG for biblical content, LLM personalization, community recommendations",
+            "fr": "RAG pour contenu biblique, personnalisation avec LLMs"
+          }
+        },
+        "fe-en-accion": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Red descentralizada Cristo-céntrica donde cada creyente puede participar, contribuir y florecer",
+            "en": "Decentralized Christ-centered network where every believer can participate, contribute and flourish",
+            "fr": "Réseau décentralisé centré sur Christ"
+          }
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Desarrollo con metodología ágil, sprints de features, CI/CD, procesos escalables",
+            "en": "Agile methodology development, feature sprints, CI/CD, scalable processes",
+            "fr": "Développement avec méthodologie agile"
+          }
+        }
+      },
+      "cobertura": 4,
+      "tecnologias": ["RAG", "LangChain", "Vector DB", "Power BI", "Python", "n8n"],
+      "metricas_impacto": [],
+      "periodo": "2022-Presente",
+      "estado": "En desarrollo",
+      "rol": "Co-Founder"
+    },
+    {
+      "id": "mysion",
+      "nombre": "MYSION.CO",
+      "descripcion_corta": {
+        "es": "Red social cristiana global con 350+ miembros y agentes IA",
+        "en": "Global Christian social network with 350+ members and AI agents",
+        "fr": "Réseau social chrétien mondial avec 350+ membres et agents IA"
+      },
+      "descripcion": {
+        "es": "Plataforma única de comunidad cristiana con enfoque integral para conectar creyentes. Provee devocionales, noticias, literatura y materiales de estudio. Integración de agentes IA como miembros de la comunidad que analizan bíblicamente el contenido cristiano de forma automática.",
+        "en": "Unique Christian community platform with comprehensive approach to connecting believers. Provides devotionals, news, literature and study materials. AI agents integrated as community members that automatically analyze Christian content biblically.",
+        "fr": "Plateforme communautaire chrétienne unique avec approche intégrale. Agents IA intégrés comme membres de la communauté."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Métricas de comunidad, análisis de crecimiento y engagement",
+            "en": "Community metrics, growth and engagement analysis",
+            "fr": "Métriques de communauté"
+          }
+        },
+        "ia-proposito": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Agentes IA como miembros de la comunidad que analizan bíblicamente el contenido cristiano automáticamente",
+            "en": "AI agents as community members that automatically analyze Christian content biblically",
+            "fr": "Agents IA comme membres de la communauté analysant le contenu chrétien"
+          }
+        },
+        "fe-en-accion": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Proyecto insignia conectando cristianos, pastores, líderes, iglesias y ministerios globalmente",
+            "en": "Flagship project connecting Christians, pastors, leaders, churches and ministries globally",
+            "fr": "Projet phare connectant chrétiens, pasteurs, leaders"
+          }
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Desarrollo iterativo con feedback continuo de la comunidad",
+            "en": "Iterative development with continuous community feedback",
+            "fr": "Développement itératif"
+          }
+        }
+      },
+      "cobertura": 4,
+      "tecnologias": ["WordPress", "BuddyBoss", "PHP", "LLMs", "AI Agents"],
+      "metricas_impacto": ["350+ miembros", "2 idiomas", "5+ países", "Agentes IA activos"],
+      "periodo": "2017-Presente",
+      "estado": "Funcional",
+      "url": "https://mysion.co",
+      "rol": "Founder & Leader"
+    },
+    {
+      "id": "faithtech-americas",
+      "nombre": "FaithTech Americas Online",
+      "descripcion_corta": {
+        "es": "Liderazgo de comunidad de tecnólogos de fe en las Américas",
+        "en": "Leadership of faith technologists community across the Americas",
+        "fr": "Leadership de communauté de technologues de foi dans les Amériques"
+      },
+      "descripcion": {
+        "es": "Como Labs Lead, guío una comunidad diversa de tecnólogos de las Américas creando soluciones que conectan tecnología y fe. Desarrollamos proyectos que traen esperanza, conexión y apoyo práctico a comunidades.",
+        "en": "As Labs Lead, I guide a diverse community of technologists across the Americas creating impactful solutions bridging technology and faith. We develop projects bringing hope, connection, and practical support to communities.",
+        "fr": "En tant que Labs Lead, je guide une communauté diversifiée de technologues créant des solutions impactantes."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "ia-proposito": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Exploración de herramientas digitales y IA para amplificar iniciativas de fe",
+            "en": "Exploration of digital tools and AI to amplify faith-driven initiatives",
+            "fr": "Exploration d'outils numériques et IA"
+          }
+        },
+        "fe-en-accion": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Conexión de innovadores de diferentes países y culturas con visión unida de impacto transformador",
+            "en": "Connecting innovators from different countries and cultures with united vision for transformative impact",
+            "fr": "Connexion d'innovateurs de différents pays"
+          }
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Liderazgo de Labs con metodologías colaborativas y desarrollo iterativo",
+            "en": "Labs leadership with collaborative methodologies and iterative development",
+            "fr": "Leadership de Labs avec méthodologies collaboratives"
+          }
+        }
+      },
+      "cobertura": 3,
+      "tecnologias": ["Comunidades digitales", "Herramientas colaborativas"],
+      "metricas_impacto": ["Comunidad panamericana", "Múltiples países"],
+      "periodo": "2024-Presente",
+      "estado": "Activo",
+      "rol": "Labs Lead"
+    },
+    {
+      "id": "trispark-ai-automation",
+      "nombre": "Automatización de Marketing con IA - 3Spark",
+      "descripcion_corta": {
+        "es": "Sistemas de automatización inteligente con n8n, Claude y Go HighLevel",
+        "en": "Intelligent automation systems with n8n, Claude and Go HighLevel",
+        "fr": "Systèmes d'automatisation intelligente avec n8n, Claude et Go HighLevel"
+      },
+      "descripcion": {
+        "es": "Desarrollo de sistemas de automatización de marketing con IA, incluyendo workflows con n8n, integración con Claude Code, Go HighLevel, Gemini y otros LLMs. Implementación de ingeniería de contexto para soluciones personalizadas.",
+        "en": "Development of AI marketing automation systems including n8n workflows, Claude Code integration, Go HighLevel, Gemini and other LLMs. Context engineering implementation for customized solutions.",
+        "fr": "Développement de systèmes d'automatisation marketing avec IA."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Métricas de conversión, análisis de campañas automatizadas",
+            "en": "Conversion metrics, automated campaign analysis",
+            "fr": "Métriques de conversion"
+          }
+        },
+        "ia-proposito": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Ingeniería de contexto con LLMs, automatización inteligente, agentes de IA",
+            "en": "Context engineering with LLMs, intelligent automation, AI agents",
+            "fr": "Ingénierie de contexte avec LLMs"
+          }
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Desarrollo iterativo de automatizaciones con Scrum, mejora continua",
+            "en": "Iterative automation development with Scrum, continuous improvement",
+            "fr": "Développement itératif d'automatisations avec Scrum"
+          }
+        }
+      },
+      "cobertura": 3,
+      "tecnologias": ["n8n", "Claude Code", "Go HighLevel", "Gemini", "LLMs", "API Integrations"],
+      "metricas_impacto": ["Múltiples clientes", "Automatización de funnels"],
+      "periodo": "Abr 2021-Presente",
+      "estado": "Activo",
+      "cliente": "3Spark - Business Catalyst",
+      "rol": "AI Marketing Architect"
+    },
+    {
+      "id": "miees",
+      "nombre": "MIEES Evangelio 7x24",
+      "descripcion_corta": {
+        "es": "Comunidad IT cristiana con 10+ proyectos para iglesias",
+        "en": "Christian IT community with 10+ projects for churches",
+        "fr": "Communauté IT chrétienne avec 10+ projets pour églises"
+      },
+      "descripcion": {
+        "es": "Fundé MIEES (Medios de Información y Tecnología Evangelizando y Edificando 7x24) para conectar profesionales IT hispanohablantes con más de 10 proyectos exitosos para iglesias y ministerios en Latinoamérica y USA con enfoque de soluciones tecnológicas accesibles.",
+        "en": "I founded MIEES to connect Spanish-speaking IT professionals with over 10 successful projects for churches and ministries across Latin America and USA with cost-effective technology solutions approach.",
+        "fr": "J'ai fondé MIEES pour connecter les professionnels IT hispanophones."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Análisis de datos clave para toma de decisiones del proyecto y métricas de impacto",
+            "en": "Key data analysis for project decision-making and impact metrics",
+            "fr": "Analyse de données clés pour la prise de décisions"
+          }
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Comunidad de profesionales IT sirviendo a iglesias con tecnología accesible",
+            "en": "IT professionals community serving churches with accessible technology",
+            "fr": "Communauté de professionnels IT servant les églises"
+          }
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Gestión de proyectos colaborativos con voluntarios",
+            "en": "Collaborative project management with volunteers",
+            "fr": "Gestion de projets collaboratifs"
+          }
+        }
+      },
+      "cobertura": 3,
+      "tecnologias": ["WordPress", "Herramientas colaborativas", "Streaming", "Analytics"],
+      "metricas_impacto": ["10+ proyectos", "Latinoamérica + USA", "7 años"],
+      "periodo": "2014-2021",
+      "estado": "Completado",
+      "url": "https://miees.mysion.com.co",
+      "rol": "Founder & Leader"
+    },
+    {
+      "id": "bethesda",
+      "nombre": "Bethesda International Church - Planeación",
+      "descripcion_corta": {
+        "es": "Liderazgo de estrategia y operación para iglesia regional",
+        "en": "Strategy and operations leadership for regional church",
+        "fr": "Leadership de stratégie et opération pour église régionale"
+      },
+      "descripcion": {
+        "es": "Liderazgo en la creación y operación del departamento que guía la estrategia y acción del Movimiento Cristiano Bethesda para la Región Colombia. Definición de visión pastoral, cadena de valor y dirección estratégica.",
+        "en": "Leadership in creating and operating the department guiding strategy and action of Bethesda Christian Movement for Colombia Region. Definition of pastoral vision, value chain and strategic direction.",
+        "fr": "Leadership dans la création du département guidant stratégie et action."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Análisis de datos estratégicos, métricas de crecimiento y participación, reportes para liderazgo pastoral",
+            "en": "Strategic data analysis, growth and participation metrics, leadership reports",
+            "fr": "Analyse de données stratégiques, métriques de croissance et participation"
+          }
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Servicio estratégico a movimiento cristiano regional",
+            "en": "Strategic service to regional Christian movement",
+            "fr": "Service stratégique au mouvement chrétien régional"
+          }
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Planeación estratégica, definición de visión pastoral y cadena de valor",
+            "en": "Strategic planning, pastoral vision and value chain definition",
+            "fr": "Planification stratégique et définition de la vision pastorale"
+          }
+        }
+      },
+      "cobertura": 3,
+      "tecnologias": ["Planeación estratégica", "Gestión de operaciones", "Análisis de datos"],
+      "metricas_impacto": ["7+ años de servicio", "Región Colombia"],
+      "periodo": "2011-2018",
+      "estado": "Completado",
+      "rol": "Planning Manager"
+    },
+    {
+      "id": "genesis-montreal",
+      "nombre": "Genesis Montreal - Transformación Digital Eclesial",
+      "descripcion_corta": {
+        "es": "Implementación de Planning Center y dashboards analíticos para iglesia en Montreal",
+        "en": "Planning Center implementation and analytics dashboards for church in Montreal",
+        "fr": "Implémentation de Planning Center et tableaux de bord analytiques pour église à Montréal"
+      },
+      "descripcion": {
+        "es": "Lideré la implementación completa de Planning Center integrando módulos de People, Services, Groups, Check-Ins y Giving. Centralicé datos estratégicos en estructura unificada, diseñé estándares de calidad de datos y modelos de segmentación. Desarrollé dashboards analíticos para asimilación, asistencia, retención de voluntarios y seguimiento pastoral. Dirigí el rediseño del sitio web y ecosistema de comunicación.",
+        "en": "Led full Planning Center implementation integrating People, Services, Groups, Check-Ins and Giving modules. Centralized strategic data into unified structure, designed data-quality standards and segmentation models. Developed analytics dashboards for assimilation, attendance, volunteer retention and pastoral follow-up. Directed website and communication ecosystem redesign.",
+        "fr": "Direction de l'implémentation complète de Planning Center. Centralisation des données stratégiques, développement de tableaux de bord analytiques et refonte du site web."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Dashboards analíticos de asimilación, asistencia, retención de voluntarios. Centralización de datos, estándares de calidad y modelos de segmentación",
+            "en": "Analytics dashboards for assimilation, attendance, volunteer retention. Data centralization, quality standards and segmentation models",
+            "fr": "Tableaux de bord analytiques, centralisation des données et modèles de segmentation"
+          }
+        },
+        "ia-proposito": {
+          "aplica": true,
+          "descripcion": {
+            "es": "IA como centro de información estratégica para organizar iniciativas, priorizar proyectos y ejecutar iniciativas tecnológicas con asistencia inteligente",
+            "en": "AI as strategic information hub for organizing initiatives, prioritizing projects and executing technology initiatives with intelligent assistance",
+            "fr": "IA comme centre d'information stratégique pour organiser les initiatives et exécuter les projets technologiques"
+          }
+        },
+        "fe-en-accion": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Servicio estratégico a comunidad cristiana, mejora de seguimiento pastoral y experiencia de miembros",
+            "en": "Strategic service to Christian community, improved pastoral follow-up and member experience",
+            "fr": "Service stratégique à la communauté chrétienne à Montréal"
+          }
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Liderazgo del equipo de Planeación con marco Scrum escalando con SAFe, implementación de Planning Center, mapeo de workflows y coordinación cross-ministerial",
+            "en": "Planning team leadership with Scrum framework scaling with SAFe, Planning Center implementation, workflow mapping and cross-ministry coordination",
+            "fr": "Leadership de l'équipe de planification avec Scrum et SAFe, implémentation de Planning Center"
+          }
+        }
+      },
+      "cobertura": 4,
+      "tecnologias": ["Planning Center", "Analytics Dashboards", "Web Development", "Data Quality", "Workflow Automation", "AI Tools", "Scrum", "SAFe"],
+      "metricas_impacto": ["2+ años de servicio", "Región Montreal", "Centralización de datos", "Dashboards en tiempo real"],
+      "periodo": "Ago 2022-Abr 2025",
+      "estado": "Completado",
+      "rol": "Planning Lead"
+    },
+    {
+      "id": "citibank",
+      "nombre": "Desarrollo de Soluciones y Análisis - Citibank",
+      "descripcion_corta": {
+        "es": "10 años de análisis de datos y desarrollo de soluciones en banca",
+        "en": "10 years of data analysis and solutions development in banking",
+        "fr": "10 ans d'analyse de données et développement de solutions bancaires"
+      },
+      "descripcion": {
+        "es": "Análisis de requerimientos de negocio y gaps en procesos bancarios. Desarrollo e implementación de soluciones de software para optimizar procesos diarios. Gestión de requerimientos de infraestructura tecnológica para proyectos aprobados. Responsable de desarrollo de aplicaciones.",
+        "en": "Business requirements analysis and gaps identification in banking processes. Software solutions development and implementation to optimize daily processes. Technology infrastructure requirements management for approved projects. Applications development responsible.",
+        "fr": "Analyse des exigences métier et développement de solutions logicielles bancaires."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Análisis de datos de procesos bancarios, identificación de gaps, optimización de operaciones",
+            "en": "Banking process data analysis, gap identification, operations optimization",
+            "fr": "Analyse de données bancaires, identification de gaps"
+          }
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Gestión de proyectos de desarrollo, implementación de soluciones tecnológicas",
+            "en": "Development project management, technology solutions implementation",
+            "fr": "Gestion de projets de développement"
+          }
+        }
+      },
+      "cobertura": 2,
+      "tecnologias": ["SQL", "Development", "Banking Systems", "Process Analysis"],
+      "metricas_impacto": ["10 años de experiencia", "Múltiples proyectos", "Sector financiero"],
+      "periodo": "Sep 1998-Abr 2008",
+      "estado": "Completado",
+      "cliente": "Citibank & Cititrust Colombia",
+      "rol": "Process Analyst / Applications Development Responsible"
+    },
+    {
+      "id": "desjardins-bi",
+      "nombre": "Dashboards Transversales de Presupuesto - Desjardins",
+      "descripcion_corta": {
+        "es": "Dashboards Power BI para múltiples vicepresidencias con Azure",
+        "en": "Power BI dashboards for multiple VPs with Azure",
+        "fr": "Tableaux de bord Power BI pour plusieurs VP avec Azure"
+      },
+      "descripcion": {
+        "es": "Elaboración de dashboards transversales a varias vicepresidencias para gestión de presupuestos. Centralización de datos de gestión de TI desde múltiples fuentes. Implementación con Power BI, Azure Synapse, DAX avanzado y toda la suite de ingeniería de datos de Azure.",
+        "en": "Development of cross-functional dashboards for multiple VPs for budget management. IT management data centralization from multiple sources. Implementation with Power BI, Azure Synapse, advanced DAX and full Azure data engineering suite.",
+        "fr": "Élaboration de tableaux de bord transversaux pour plusieurs VP."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Centralización de datos de presupuesto, reportes prospectivos, DAX avanzado, RLS/OLS",
+            "en": "Budget data centralization, prospective reports, advanced DAX, RLS/OLS",
+            "fr": "Centralisation des données de budget"
+          }
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Implementación con metodología Scrum, integración continua",
+            "en": "Scrum methodology implementation, continuous integration",
+            "fr": "Implémentation avec méthodologie Scrum"
+          }
+        }
+      },
+      "cobertura": 2,
+      "tecnologias": ["Power BI", "Azure Synapse", "DAX", "Power Query", "Azure Data Factory", "Denodo", "Databricks", "Scrum"],
+      "metricas_impacto": ["Múltiples vicepresidencias", "Centralización de datos TI"],
+      "periodo": "Abr 2022-Abr 2023",
+      "estado": "Completado",
+      "cliente": "Desjardins",
+      "rol": "Senior BI & Azure Developer"
+    },
+    {
+      "id": "hydro-quebec",
+      "nombre": "Plataforma BI con Predicción de Retención - Hydro-Québec",
+      "descripcion_corta": {
+        "es": "Reportes Power BI con modelos predictivos de retención",
+        "en": "Power BI reports with employee retention predictive models",
+        "fr": "Rapports Power BI avec modèles prédictifs de rétention"
+      },
+      "descripcion": {
+        "es": "Desarrollo de reportes en Power BI y Azure con integración de Azure Data Factory, Azure Synapse, OLAP, JIRA y Databricks. Desarrollo de funciones Python y C# para anonimización de datos. Modelos predictivos de retención de empleados usando redes neuronales multicapa.",
+        "en": "Power BI report development with Azure Data Factory, Azure Synapse, OLAP, JIRA and Databricks integration. Python and C# functions for data anonymization. Employee retention predictive models using multilayer neural networks.",
+        "fr": "Développement de rapports Power BI avec Azure."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Reportes BI, integración de múltiples fuentes, SQL/T-SQL/DAX avanzado",
+            "en": "BI reports, multiple source integration, advanced SQL/T-SQL/DAX",
+            "fr": "Rapports BI, intégration de multiples sources"
+          }
+        },
+        "ia-proposito": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Modelos predictivos de retención con redes neuronales, anonimización de datos",
+            "en": "Retention predictive models with neural networks, data anonymization",
+            "fr": "Modèles prédictifs de rétention avec réseaux neuronaux"
+          }
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Desarrollo con metodología Scrum, sprints de desarrollo",
+            "en": "Scrum methodology development, development sprints",
+            "fr": "Développement avec méthodologie Scrum"
+          }
+        }
+      },
+      "cobertura": 3,
+      "tecnologias": ["Power BI", "Azure Data Factory", "Azure Synapse", "Python", "C#", "Databricks", "Neural Networks", "Scrum"],
+      "metricas_impacto": ["Predicción de retención", "Anonimización de datos"],
+      "periodo": "Jul 2021-Jun 2022",
+      "estado": "Completado",
+      "cliente": "Hydro-Québec",
+      "rol": "Senior BI Consultant"
+    },
+    {
+      "id": "intact-analytics",
+      "nombre": "Automatización de Análisis de Marketing - Intact",
+      "descripcion_corta": {
+        "es": "Automatización de reportes ejecutivos y análisis de marketing",
+        "en": "Executive reports and marketing analysis automation",
+        "fr": "Automatisation de rapports exécutifs et analyse marketing"
+      },
+      "descripcion": {
+        "es": "Automatización de recolección de datos para análisis presupuestario. Mejora de reportes de análisis de marketing y reportes ejecutivos en Power BI. Integración con SharePoint, SQL Server, Oracle, C# y Adobe Analytics.",
+        "en": "Data collection automation for budget analysis. Marketing analysis and executive reports improvement in Power BI. Integration with SharePoint, SQL Server, Oracle, C# and Adobe Analytics.",
+        "fr": "Automatisation de collecte de données pour analyse budgétaire."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Reportes ejecutivos, análisis de marketing, automatización de datos",
+            "en": "Executive reports, marketing analysis, data automation",
+            "fr": "Rapports exécutifs, analyse marketing"
+          }
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Desarrollo con metodología Scrum, mejora continua de reportes",
+            "en": "Scrum methodology development, continuous report improvement",
+            "fr": "Développement avec méthodologie Scrum"
+          }
+        }
+      },
+      "cobertura": 2,
+      "tecnologias": ["Power BI", "SharePoint", "SQL Server", "Oracle", "C#", "Adobe Analytics", "Scrum"],
+      "metricas_impacto": ["Automatización de reportes", "Análisis presupuestario"],
+      "periodo": "Nov 2020-Mar 2021",
+      "estado": "Completado",
+      "cliente": "Intact Insurance",
+      "rol": "Marketing BI Developer"
+    },
+    {
+      "id": "godoworks",
+      "nombre": "Transformación Data-Driven - GoDoWorks",
+      "descripcion_corta": {
+        "es": "Liderazgo de transformación hacia empresa orientada a datos y procesos",
+        "en": "Leadership of transformation towards data and process-oriented company",
+        "fr": "Leadership de transformation vers entreprise orientée données"
+      },
+      "descripcion": {
+        "es": "Análisis de datos generados en PMO de TI de 60+ proyectos para tomar decisiones de priorización y capacidad. Lanzamiento de portafolio de nueva versión de solución de geolocalización con componente de Data Analytics. Liderazgo de transformación de GoDoWorks hacia empresa orientada a procesos y datos con mejores prácticas IT.",
+        "en": "Data analysis from IT PMO of 60+ projects for prioritization and capacity decisions. Launch of new version portfolio of geolocation solution with Data Analytics component. Leadership of GoDoWorks transformation towards process and data-oriented company with IT best practices.",
+        "fr": "Analyse de données de PMO IT pour décisions de priorisation et capacité."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Análisis de datos de PMO, +15 reportes en Pentaho/Jasper, decisiones basadas en datos",
+            "en": "PMO data analysis, +15 reports in Pentaho/Jasper, data-driven decisions",
+            "fr": "Analyse de données PMO, +15 rapports"
+          }
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Implementación de Scrum, Kanban y DevOps en departamento IT y operaciones",
+            "en": "Scrum, Kanban and DevOps implementation in IT department and operations",
+            "fr": "Implémentation de Scrum, Kanban et DevOps"
+          }
+        }
+      },
+      "cobertura": 2,
+      "tecnologias": ["Power BI", "Pentaho", "Jasper Reports", "JIRA", "Confluence", "Excel/VBA", "PHP", "AWS", "Scrum", "Kanban", "DevOps"],
+      "metricas_impacto": ["60+ proyectos analizados", "+15 reportes", "Transformación organizacional"],
+      "periodo": "Jun 2018-Dic 2018",
+      "estado": "Completado",
+      "cliente": "GoDoWorks Latam",
+      "rol": "Management Data Analyst / BI Developer"
+    },
+    {
+      "id": "stefanini-migracion",
+      "nombre": "Programa de Migración Masiva - Stefanini",
+      "descripcion_corta": {
+        "es": "60+ proyectos de migración de datos con 50+ colaboradores",
+        "en": "60+ data migration projects with 50+ team members",
+        "fr": "60+ projets de migration de données avec 50+ collaborateurs"
+      },
+      "descripcion": {
+        "es": "Liderazgo de programa masivo de migración de datos desde sistemas legacy (ISS) a nuevo sistema (Colpensiones). Recuperación de confianza del cliente mediante prácticas ágiles. Gestión de equipo de 50+ personas. Construcción de +40 reportes para afiliados, contribuyentes y agencias regulatorias.",
+        "en": "Leadership of massive data migration program from legacy systems (ISS) to new system (Colpensiones). Client trust recovery through agile practices. 50+ team management. +40 reports built for affiliates, contributors and regulatory agencies.",
+        "fr": "Leadership de programme massif de migration de données."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Dashboards de seguimiento de migración, +40 reportes, métricas de calidad de datos",
+            "en": "Migration tracking dashboards, +40 reports, data quality metrics",
+            "fr": "Tableaux de bord de suivi de migration, +40 rapports"
+          }
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Implementación de Scrum para recuperar proyecto en crisis, gestión de 50+ personas",
+            "en": "Scrum implementation to recover project in crisis, 50+ people management",
+            "fr": "Implémentation de Scrum pour récupérer projet en crise"
+          }
+        }
+      },
+      "cobertura": 2,
+      "tecnologias": ["SQL Server", "SSIS", "Power BI", "Talend", "Pentaho", "DB2", "Scrum"],
+      "metricas_impacto": ["60+ proyectos", "50+ colaboradores", "+40 reportes", "Recuperación de confianza"],
+      "periodo": "Jun 2017-Jun 2018",
+      "estado": "Completado",
+      "cliente": "Stefanini Colombia / Colpensiones",
+      "rol": "Data Migration Manager"
+    },
+    {
+      "id": "fenalco",
+      "nombre": "Desarrollo de Aplicaciones JEE - FENALCO",
+      "descripcion_corta": {
+        "es": "Liderazgo de desarrollo de aplicaciones empresariales con JEE",
+        "en": "Enterprise applications development leadership with JEE",
+        "fr": "Leadership de développement d'applications JEE"
+      },
+      "descripcion": {
+        "es": "Liderazgo de desarrollo de aplicaciones con JEE usando frameworks como Struts y JSF con tecnologías AJAX para diferentes requerimientos de negocio. Coordinación de aspectos de infraestructura tecnológica de los proyectos desarrollados.",
+        "en": "Leadership of applications development with JEE using frameworks like Struts and JSF with AJAX technologies for different business requirements. Technology infrastructure coordination for developed projects.",
+        "fr": "Leadership de développement d'applications JEE avec Struts et JSF."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Liderazgo técnico y coordinación de infraestructura de proyectos",
+            "en": "Technical leadership and project infrastructure coordination",
+            "fr": "Leadership technique et coordination d'infrastructure"
+          }
+        }
+      },
+      "cobertura": 1,
+      "tecnologias": ["JEE", "Struts", "JSF", "AJAX", "Java"],
+      "metricas_impacto": ["Múltiples aplicaciones", "Sector comercio"],
+      "periodo": "Nov 2008-Sep 2009",
+      "estado": "Completado",
+      "cliente": "FENALCO Bogota",
+      "rol": "Software Development Engineer"
+    },
+    {
+      "id": "vipsa-thomas-greg",
+      "nombre": "Migración Tecnológica y Sistema Electoral - VIPSA (Thomas Greg & Son)",
+      "descripcion_corta": {
+        "es": "Arquitectura de migración Delphi a Java y sistema electoral",
+        "en": "Delphi to Java migration architecture and electoral system",
+        "fr": "Architecture de migration Delphi vers Java et système électoral"
+      },
+      "descripcion": {
+        "es": "Desarrollo de arquitectura y análisis para procesos de migración de tecnología Delphi a Java. Construcción de aplicativo para proceso electoral con la Registraduría Nacional. Propuesta e implementación de patrones de desarrollo en la unidad de desarrollo.",
+        "en": "Architecture development and analysis for Delphi to Java technology migration processes. Electoral process application construction with National Registry. Development patterns proposal and implementation in development unit.",
+        "fr": "Développement d'architecture pour migration Delphi vers Java."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Implementación de patrones de desarrollo, mejores prácticas técnicas",
+            "en": "Development patterns implementation, technical best practices",
+            "fr": "Implémentation de patrons de développement"
+          }
+        }
+      },
+      "cobertura": 1,
+      "tecnologias": ["Java", "Delphi", "Architecture", "Electoral Systems"],
+      "metricas_impacto": ["Migración tecnológica", "Sistema electoral nacional"],
+      "periodo": "May 2008-Nov 2008",
+      "estado": "Completado",
+      "cliente": "VIPSA (Thomas Greg & Son)",
+      "rol": "Software Developer"
+    },
+    {
+      "id": "tecnalia-ecosistema",
+      "nombre": "Ecosistema de Innovación TIC - Cundinamarca",
+      "descripcion_corta": {
+        "es": "Programa de $1M USD para innovación tecnológica regional",
+        "en": "$1M USD program for regional technological innovation",
+        "fr": "Programme de $1M USD pour l'innovation technologique régionale"
+      },
+      "descripcion": {
+        "es": "Articulación y puesta en marcha del Ecosistema de Innovación TIC en Cundinamarca, integrando actores públicos y privados del Sistema Nacional de Ciencia, Tecnología e Innovación. Implementación de Centro de Transferencia en Biométrica y Ciberseguridad.",
+        "en": "Articulation and launch of ICT Innovation Ecosystem in Cundinamarca, integrating public and private actors from National Science, Technology and Innovation System. Biometrics and Cybersecurity Transfer Center implementation.",
+        "fr": "Articulation et mise en marche de l'Écosystème d'Innovation TIC."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Indicadores de impacto, métricas de transferencia tecnológica",
+            "en": "Impact indicators, technology transfer metrics",
+            "fr": "Indicateurs d'impact"
+          }
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Gestión de programa complejo con 100+ personas y 1000+ stakeholders",
+            "en": "Complex program management with 100+ people and 1000+ stakeholders",
+            "fr": "Gestion de programme complexe"
+          }
+        }
+      },
+      "cobertura": 2,
+      "tecnologias": ["Biométrica", "Ciberseguridad", "Innovación TIC"],
+      "metricas_impacto": ["$1M USD", "100+ personas", "1000+ stakeholders"],
+      "periodo": "Jul 2014-Sep 2015",
+      "estado": "Completado",
+      "cliente": "Tecnalia",
+      "rol": "IT Senior Project Manager"
+    },
+    {
+      "id": "ecopetrol-bi",
+      "nombre": "Plan de Business Intelligence - Ecopetrol",
+      "descripcion_corta": {
+        "es": "5+ proyectos IT cerrados exitosamente con formulación BI",
+        "en": "5+ IT projects successfully closed with BI planning",
+        "fr": "5+ projets IT clôturés avec succès"
+      },
+      "descripcion": {
+        "es": "Cierre exitoso de 5+ proyectos IT en tiempo, presupuesto y alcance. Formulación de planes de componentes TI en Business Intelligence para la empresa petrolera más grande de Colombia.",
+        "en": "Successful closure of 5+ IT projects on time, budget and scope. IT component planning formulation in Business Intelligence for Colombia's largest oil company.",
+        "fr": "Clôture réussie de 5+ projets IT."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Formulación de planes BI, arquitectura de datos",
+            "en": "BI planning formulation, data architecture",
+            "fr": "Formulation de plans BI"
+          }
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Gestión de proyectos IT con metodología PMI",
+            "en": "IT project management with PMI methodology",
+            "fr": "Gestion de projets IT avec méthodologie PMI"
+          }
+        }
+      },
+      "cobertura": 2,
+      "tecnologias": ["Business Intelligence", "PMI", "SQL Server"],
+      "metricas_impacto": ["5+ proyectos", "En tiempo y presupuesto"],
+      "periodo": "Jun 2012-Jun 2013",
+      "estado": "Completado",
+      "cliente": "Ecopetrol",
+      "rol": "IT Project Manager"
+    },
+    {
+      "id": "renault-transformacion",
+      "nombre": "Transformación Digital - Renault Colombia",
+      "descripcion_corta": {
+        "es": "Sistema de información core business con data mining para Alta Dirección",
+        "en": "Core business information system with data mining for executives",
+        "fr": "Système d'information core business avec data mining"
+      },
+      "descripcion": {
+        "es": "Diseño e implementación de solución tecnológica para transformar Renault Colombia en empresa autofinanciada. Gestión de proyecto de sistema de información core business que cubre aspectos operativos, financieros, contables, comerciales y canal web. Data mining para proveer información clave a la Alta Dirección.",
+        "en": "Technology solution design and implementation to transform Renault Colombia into self-financing company. Core business information system project management covering operational, financial, accounting, commercial and web channel aspects. Data mining to provide key information to executives.",
+        "fr": "Conception et implémentation de solution technologique pour Renault Colombia."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Data mining para Alta Dirección, inteligencia de negocio",
+            "en": "Data mining for executives, business intelligence",
+            "fr": "Data mining pour direction"
+          }
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Gestión de proyecto de transformación organizacional",
+            "en": "Organizational transformation project management",
+            "fr": "Gestion de projet de transformation"
+          }
+        }
+      },
+      "cobertura": 2,
+      "tecnologias": ["Data Mining", "ERP", "Business Intelligence"],
+      "metricas_impacto": ["Transformación digital", "Sistema core business"],
+      "periodo": "Sep 2009-Dic 2011",
+      "estado": "Completado",
+      "cliente": "Renault Colombia (Plan Rombo)",
+      "rol": "IT Project Manager"
+    },
+    {
+      "id": "kap-pmo-hidrocarburos",
+      "nombre": "Implementación PMO Sector Hidrocarburos",
+      "descripcion_corta": {
+        "es": "PMO en dos unidades de negocio con metodología OPM3",
+        "en": "PMO in two business units with OPM3 methodology",
+        "fr": "PMO dans deux unités d'affaires avec méthodologie OPM3"
+      },
+      "descripcion": {
+        "es": "Implementación de Oficina de Proyectos en dos unidades de negocio mediante fases de Definición, Implementación y Aseguramiento. Fortalecimiento de planeación, modelo estándar de gestión y cultura organizacional de proyectos. Consultoría exitosa en 12+ empresas con prácticas ágiles.",
+        "en": "Project Office implementation in two business units through Definition, Implementation and Assurance phases. Planning strengthening, standard management model and organizational project culture. Successful consultancy in 12+ companies with agile practices.",
+        "fr": "Implémentation de Bureau de Projets dans deux unités."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Tablero de indicadores de gestión para portafolio de proyectos",
+            "en": "Management indicators dashboard for project portfolio",
+            "fr": "Tableau d'indicateurs de gestion"
+          }
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Implementación PMO con estándares PMI/OPM3, prácticas ágiles en 12+ empresas",
+            "en": "PMO implementation with PMI/OPM3 standards, agile practices in 12+ companies",
+            "fr": "Implémentation PMO avec standards PMI/OPM3"
+          }
+        }
+      },
+      "cobertura": 2,
+      "tecnologias": ["PMI", "OPM3", "MS Project", "Power BI"],
+      "metricas_impacto": ["12+ empresas", "2 unidades de negocio", "Modelo estándar implementado"],
+      "periodo": "Jul 2013-Jul 2014",
+      "estado": "Completado",
+      "cliente": "KAP Consultants / Sector Hidrocarburos",
+      "rol": "PMO Consultant"
+    },
+    {
+      "id": "reciif",
+      "nombre": "Red RECIIF - Internet del Futuro Colombia",
+      "descripcion_corta": {
+        "es": "Plataforma web para comunidad de I+D+i en Internet del Futuro",
+        "en": "Web platform for R&D+i community in Future Internet",
+        "fr": "Plateforme web pour communauté R&D+i"
+      },
+      "descripcion": {
+        "es": "Implementación del sitio web de RECIIF (Red de Colaboración de I+D+i en Internet del Futuro en Colombia). Comunidad que reúne representantes de industria y Academia para desarrollar, probar y validar proyectos de investigación e innovación.",
+        "en": "RECIIF website implementation (R&D+i Collaboration Network in Future Internet in Colombia). Community gathering industry and Academia representatives to develop, test and validate research and innovation projects.",
+        "fr": "Implémentation du site web RECIIF."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Gestión de proyecto de plataforma colaborativa",
+            "en": "Collaborative platform project management",
+            "fr": "Gestion de projet de plateforme collaborative"
+          }
+        }
+      },
+      "cobertura": 1,
+      "tecnologias": ["Web Development", "Plataformas colaborativas"],
+      "metricas_impacto": ["Comunidad I+D+i", "Industria + Academia"],
+      "periodo": "2014-Presente",
+      "estado": "Activo",
+      "url": "http://reciif.org",
+      "rol": "Project Lead"
+    },
+    {
+      "id": "iso21500-speaker",
+      "nombre": "Conferencia ISO 21500 - ACIS Colombia",
+      "descripcion_corta": {
+        "es": "Speaker sobre estado del estándar ISO 21500 en Latinoamérica",
+        "en": "Speaker on ISO 21500 standard status in Latin America",
+        "fr": "Conférencier sur le statut de la norme ISO 21500"
+      },
+      "descripcion": {
+        "es": "Charla sobre el estado de ISO 21500 en Latinoamérica y Colombia. El estándar establece las directrices para la dirección y gestión de proyectos aplicable a cualquier tipo de organización.",
+        "en": "Talk about ISO 21500 status in Latin America and Colombia. The standard establishes guidelines for project direction and management applicable to any type of organization.",
+        "fr": "Présentation sur le statut de ISO 21500."
+      },
+      "frentes": {
+        "analitica-estrategica": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "ia-proposito": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "fe-en-accion": {
+          "aplica": false,
+          "descripcion": null
+        },
+        "transformacion-agil": {
+          "aplica": true,
+          "descripcion": {
+            "es": "Difusión de estándares de gestión de proyectos",
+            "en": "Project management standards dissemination",
+            "fr": "Diffusion des standards de gestion de projets"
+          }
+        }
+      },
+      "cobertura": 1,
+      "tecnologias": ["ISO 21500", "PMI"],
+      "metricas_impacto": ["Conferencia ACIS", "Video disponible en YouTube"],
+      "periodo": "2014-2017",
+      "estado": "Completado",
+      "cliente": "ACIS Colombia",
+      "rol": "Guest Speaker",
+      "url": "https://www.youtube.com/watch?v=eqzqFUGEu1Q"
+    }
+  ]
+}

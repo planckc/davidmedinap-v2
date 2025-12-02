@@ -1,0 +1,36 @@
+{
+  "nombre": "David Medina",
+  "titulo": "Senior BI Developer - AI Context Engineering Architect",
+  "ubicacion": {
+    "ciudad": "Saint Hubert",
+    "provincia": "QC",
+    "pais": "Canadá",
+    "area": "Gran Montreal"
+  },
+  "contacto": {
+    "email": "davidmedinap@gmail.com",
+    "telefono": "+1 (514) 571-1981",
+    "linkedin": "https://www.linkedin.com/in/davidmedinap/",
+    "sitio_web": "https://davidmedinap.com",
+    "agendar_reunion": "https://zcal.co/i/1mbSU6B9"
+  },
+  "idiomas": [
+    {"idioma": "Español", "nivel": "Nativo"},
+    {"idioma": "Francés", "nivel": "Bilingüe"},
+    {"idioma": "Inglés", "nivel": "Profesional"}
+  ],
+  "experiencia_anos": "20+",
+  "redes_sociales": {
+    "mysion": {
+      "sitio": "https://mysion.co",
+      "perfil": "https://mysion.co/en/members/david/",
+      "youtube": "https://www.youtube.com/@mysion_comunidad/featured",
+      "facebook": "http://facebook.com/mysioncomunidad",
+      "instagram": "https://www.instagram.com/mysionco/"
+    },
+    "miees": {
+      "sitio": "https://miees.mysion.com.co",
+      "youtube": "https://www.youtube.com/channel/UCMUaA5CFj3bjhe-BgPrOXSw"
+    }
+  }
+}
