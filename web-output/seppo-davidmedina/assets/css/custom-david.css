@@ -1,0 +1,375 @@
+/*
+    Custom CSS for David Medina Personal Website
+    4 Frentes de Trabajo: Analitica Estrategica, IA con Proposito, Fe en Accion, Transformacion Agil
+*/
+
+/* ===================================
+    Language Selector in Header
+====================================== */
+
+.lang-selector {
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.lang-selector a {
+    color: #b3b3b3;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.lang-selector a:hover,
+.lang-selector a.active {
+    color: #47ea4e;
+}
+
+.lang-selector a:not(:last-child):after {
+    content: "|";
+    margin-left: 10px;
+    color: #444;
+}
+
+@media (max-width: 1020px) {
+    .lang-selector {
+        right: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .lang-selector {
+        position: fixed;
+        top: auto;
+        bottom: 20px;
+        right: 20px;
+        background: rgba(0,0,0,0.9);
+        padding: 10px 15px;
+        border-radius: 25px;
+        transform: none;
+    }
+}
+
+/* ===================================
+    4 Frentes - Expertise Hub Section
+====================================== */
+
+#expertise {
+    background-color: #000;
+    padding-bottom: 50px;
+}
+
+.expertise-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-top: 50px;
+}
+
+.frente-card {
+    width: 25%;
+    padding: 40px 30px;
+    text-align: center;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.frente-card:last-child {
+    border-right: none;
+}
+
+.frente-card:hover {
+    transform: translateY(-10px);
+}
+
+.frente-card::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    transition: height 0.3s ease;
+}
+
+.frente-card:hover::before {
+    height: 100%;
+    opacity: 0.1;
+}
+
+/* Frente Colors */
+.frente-analitica::before { background-color: #2563eb; }
+.frente-ia::before { background-color: #7c3aed; }
+.frente-fe::before { background-color: #dc2626; }
+.frente-agil::before { background-color: #059669; }
+
+.frente-analitica .frente-icon { color: #2563eb; }
+.frente-ia .frente-icon { color: #7c3aed; }
+.frente-fe .frente-icon { color: #dc2626; }
+.frente-agil .frente-icon { color: #059669; }
+
+.frente-analitica:hover h4 { color: #2563eb; }
+.frente-ia:hover h4 { color: #7c3aed; }
+.frente-fe:hover h4 { color: #dc2626; }
+.frente-agil:hover h4 { color: #059669; }
+
+.frente-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    filter: grayscale(30%);
+    transition: all 0.3s ease;
+}
+
+.frente-card:hover .frente-image {
+    filter: grayscale(0%);
+    transform: scale(1.02);
+}
+
+.frente-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.frente-card:hover .frente-icon {
+    transform: scale(1.1);
+}
+
+.frente-card h4 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+    line-height: 1.3;
+}
+
+.frente-card p {
+    font-size: 14px;
+    color: #b3b3b3;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.frente-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.frente-tag {
+    font-size: 11px;
+    color: #888;
+    background: rgba(255,255,255,0.05);
+    padding: 4px 10px;
+    border-radius: 15px;
+    letter-spacing: 0.5px;
+}
+
+.frente-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #fff !important;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.frente-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #47ea4e;
+    transition: width 0.3s ease;
+}
+
+.frente-card:hover .frente-link::after {
+    width: 100%;
+}
+
+/* Responsive for 4 Frentes */
+@media (max-width: 1200px) {
+    .frente-card {
+        width: 50%;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .frente-card:nth-child(2) {
+        border-right: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .frente-card {
+        width: 100%;
+        border-right: none;
+        padding: 30px 20px;
+    }
+
+    .frente-card h4 {
+        font-size: 20px;
+    }
+
+    .frente-image {
+        height: 150px;
+    }
+}
+
+/* ===================================
+    Milestones Custom - David's Stats
+====================================== */
+
+.milestone-highlight {
+    color: #47ea4e;
+}
+
+/* ===================================
+    Skills Section - Technologies Grid
+====================================== */
+
+.tech-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.tech-item {
+    background: rgba(71, 234, 78, 0.1);
+    border: 1px solid rgba(71, 234, 78, 0.3);
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-size: 13px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.tech-item:hover {
+    background: #47ea4e;
+    color: #000;
+}
+
+/* ===================================
+    Clients/Projects Section
+====================================== */
+
+.client-logo {
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    max-height: 60px;
+}
+
+.client-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.project-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 3px;
+}
+
+.badge-analitica { background: rgba(37, 99, 235, 0.2); color: #2563eb; }
+.badge-ia { background: rgba(124, 58, 237, 0.2); color: #7c3aed; }
+.badge-fe { background: rgba(220, 38, 38, 0.2); color: #dc2626; }
+.badge-agil { background: rgba(5, 150, 105, 0.2); color: #059669; }
+
+/* ===================================
+    Contact Section Enhancements
+====================================== */
+
+.contact-cta {
+    background: linear-gradient(135deg, #47ea4e 0%, #2563eb 100%);
+    padding: 3px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.contact-cta a {
+    display: block;
+    background: #000;
+    color: #fff !important;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.contact-cta a:hover {
+    background: transparent;
+}
+
+/* ===================================
+    Footer Customization
+====================================== */
+
+.footer .frentes-mini {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.frentes-mini span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* ===================================
+    Scroll Animations
+====================================== */
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+}
+
+.fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===================================
+    Print Styles
+====================================== */
+
+@media print {
+    .header-holder,
+    .lang-selector,
+    .doc-loader {
+        display: none !important;
+    }
+
+    body {
+        background: #fff;
+        color: #000;
+    }
+
+    .frente-card {
+        page-break-inside: avoid;
+    }
+}
