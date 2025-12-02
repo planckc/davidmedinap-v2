@@ -77,6 +77,39 @@ a:hover {
     color: var(--accent-secondary);
 }
 
+/* Override ALL template green (#47ea4e) instances */
+.page-title-holder {
+    background-color: var(--accent-primary) !important;
+}
+
+.page-title-holder:after {
+    border-color: var(--accent-primary) transparent transparent transparent !important;
+}
+
+/* Links and text accent */
+a,
+.link-holder a,
+.sm-clean a.current,
+.sm a:hover,
+.sm a:focus,
+.sm a:active {
+    color: var(--accent-primary) !important;
+}
+
+/* Social icons */
+.socials a:hover {
+    color: var(--accent-primary) !important;
+}
+
+/* Quote icons */
+.fa-quote-left,
+.fa-quote-right,
+blockquote::before,
+.testimonial-icon,
+.quote-icon {
+    color: var(--accent-primary) !important;
+}
+
 /* ===================================
     Logo Text with Gradient Border
 ====================================== */
@@ -202,28 +235,51 @@ a:hover {
     color: var(--accent-primary) !important;
 }
 
-/* Button Styles */
-.button {
-    font-family: var(--font-primary);
-    font-weight: 700;
-    background-color: var(--accent-primary);
+/* Button Styles - Override ALL template buttons */
+.button,
+a.button,
+button.button,
+input.button,
+.btn,
+.btn-primary,
+.wpcf7-submit,
+input[type="submit"] {
+    font-family: var(--font-primary) !important;
+    font-weight: 700 !important;
+    background-color: var(--accent-primary) !important;
     color: var(--bg-primary) !important;
-    border-color: var(--accent-primary);
-}
-
-.button:hover {
-    background-color: var(--accent-secondary);
-    border-color: var(--accent-secondary);
-}
-
-/* Secondary button (outline) */
-.button[style*="transparent"] {
-    color: var(--accent-primary) !important;
     border-color: var(--accent-primary) !important;
+    border: 2px solid var(--accent-primary) !important;
 }
 
-.button[style*="transparent"]:hover {
-    background-color: rgba(102, 252, 241, 0.1) !important;
+.button:hover,
+a.button:hover,
+button.button:hover,
+.btn:hover,
+.btn-primary:hover,
+.wpcf7-submit:hover,
+input[type="submit"]:hover {
+    background-color: var(--accent-secondary) !important;
+    border-color: var(--accent-secondary) !important;
+    color: var(--bg-primary) !important;
+}
+
+/* Secondary button (outline/transparent) */
+.button.outline,
+.button-outline,
+.button[style*="transparent"],
+a.button[style*="transparent"] {
+    background-color: transparent !important;
+    color: var(--accent-primary) !important;
+    border: 2px solid var(--accent-primary) !important;
+}
+
+.button.outline:hover,
+.button-outline:hover,
+.button[style*="transparent"]:hover,
+a.button[style*="transparent"]:hover {
+    background-color: rgba(102, 252, 241, 0.15) !important;
+    color: var(--accent-primary) !important;
 }
 
 /* ===================================
@@ -586,11 +642,35 @@ a:hover {
     Contact Section Enhancements
 ====================================== */
 #contact {
-    background-color: var(--bg-primary);
+    background-color: var(--bg-primary) !important;
+}
+
+#contact .section-wrapper,
+#contact .page-content,
+#contact .page {
+    background-color: var(--bg-primary) !important;
 }
 
 #contact .page-title-holder {
-    background-color: var(--accent-secondary);
+    background-color: var(--accent-secondary) !important;
+}
+
+#contact .page-title-holder:after {
+    border-color: var(--accent-secondary) transparent transparent transparent !important;
+}
+
+#contact h2,
+#contact h3,
+#contact h4,
+#contact p,
+#contact span,
+#contact .medium-text {
+    color: var(--text-primary) !important;
+}
+
+#contact .text-secondary,
+#contact .subtitle {
+    color: var(--text-secondary) !important;
 }
 
 .contact-cta {
@@ -628,6 +708,11 @@ input, textarea {
 
 input:focus, textarea:focus {
     border-color: var(--accent-primary) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--text-secondary) !important;
 }
 
 /* ===================================
@@ -677,16 +762,75 @@ input:focus, textarea:focus {
     Global Section Styling
 ====================================== */
 .section {
-    background-color: var(--bg-primary);
+    background-color: var(--bg-primary) !important;
+}
+
+.section .page-content,
+.section .section-wrapper,
+.section .page,
+.page-content,
+.page .page-content {
+    background-color: var(--bg-primary) !important;
+}
+
+/* Alternate sections with secondary background */
+#about,
+#about .page-content,
+#about .section-wrapper,
+#milestones,
+#milestones .page-content,
+#milestones .section-wrapper,
+#portfolio,
+#portfolio .page-content,
+#portfolio .section-wrapper,
+#testimonials,
+#testimonials .page-content,
+#testimonials .section-wrapper {
+    background-color: var(--bg-secondary) !important;
 }
 
 .page-title-holder {
-    background-color: var(--accent-primary);
+    background-color: var(--accent-primary) !important;
+}
+
+.page-title-holder:after {
+    border-color: var(--accent-primary) transparent transparent transparent !important;
 }
 
 .page-title-holder .entry-title {
-    color: var(--bg-primary);
+    color: var(--bg-primary) !important;
     font-family: var(--font-primary);
+}
+
+/* All text elements should use design system colors */
+.section h2,
+.section h3,
+.section h4,
+.section .medium-text {
+    color: var(--text-primary) !important;
+}
+
+.section p,
+.section .text-content {
+    color: var(--text-secondary) !important;
+}
+
+/* Testimonials/Quotes styling */
+.testimonial,
+.quote-holder,
+blockquote {
+    background-color: var(--bg-secondary) !important;
+}
+
+.testimonial p,
+.quote-holder p,
+blockquote p {
+    color: var(--text-secondary) !important;
+}
+
+.testimonial-author,
+.quote-author {
+    color: var(--accent-primary) !important;
 }
 
 /* ===================================
@@ -697,8 +841,125 @@ input:focus, textarea:focus {
     color: var(--text-secondary) !important;
 }
 
-.main-menu a:hover {
+.main-menu a:hover,
+.main-menu.sm-clean .sub-menu li a:hover,
+.sm-clean li.active a,
+.sm-clean li.current-page-ancestor > a,
+.sm-clean li.current_page_ancestor > a,
+.sm-clean li.current_page_item > a {
     color: var(--accent-primary) !important;
+}
+
+/* ===================================
+    Additional Template Overrides
+    (Covering all remaining #47ea4e instances)
+====================================== */
+
+/* Pricing tables */
+.pricing-table-price {
+    color: var(--accent-primary) !important;
+}
+
+.pricing-list span.fa {
+    color: var(--accent-primary) !important;
+}
+
+/* Team/Member social holder */
+.member-social-holder {
+    background: var(--accent-primary) !important;
+}
+
+/* Post/Blog info accent line */
+.single .post-info-wrapper:after,
+.post-info-wrapper:after {
+    background-color: var(--accent-primary) !important;
+}
+
+/* Navigation links */
+.single .nav-links > a,
+.nav-links > a {
+    background-color: var(--accent-primary) !important;
+    color: var(--bg-primary) !important;
+}
+
+.single .nav-links > a:hover,
+.nav-links > a:hover {
+    background-color: var(--accent-secondary) !important;
+}
+
+/* Contact form submit */
+.contact-form input[type=submit] {
+    background-color: var(--accent-primary) !important;
+    border-color: var(--accent-primary) !important;
+    color: var(--bg-primary) !important;
+}
+
+.contact-form input[type=submit]:hover {
+    background-color: var(--bg-secondary) !important;
+    color: var(--accent-primary) !important;
+}
+
+/* Skills/Progress bars - Better contrast */
+.skill-holder .skill-percent {
+    background-color: var(--accent-primary) !important;
+    color: var(--bg-primary) !important;
+    padding: 10px 15px !important;
+}
+
+.skill {
+    background-color: rgba(102, 252, 241, 0.2) !important;
+    height: 4px !important;
+}
+
+.skill-fill,
+.progress-bar,
+.skill-bar {
+    background-color: var(--accent-primary) !important;
+}
+
+/* Portfolio/Gallery hover effects - Dark overlay for readability */
+.grid-item a.item-link:after {
+    background-color: rgba(11, 12, 16, 0.85) !important;
+}
+
+.portfolio-text-holder,
+.gallery-text-holder {
+    background-color: transparent !important;
+}
+
+.portfolio-text-holder h4,
+.portfolio-title,
+.gallery-text-holder h4 {
+    color: var(--accent-primary) !important;
+}
+
+.portfolio-desc,
+.portfolio-text-holder p {
+    color: var(--text-primary) !important;
+}
+
+/* Quote slider - Replace green image with cyan filter */
+.text-slider-header-quotes {
+    filter: hue-rotate(140deg) saturate(1.5) brightness(1.2) !important;
+}
+
+/* CTA Section - Dark background with proper contrast */
+.cta-box {
+    text-align: center;
+    padding: 40px;
+    background: var(--bg-secondary) !important;
+    border: 1px solid rgba(102, 252, 241, 0.2);
+    border-radius: 8px;
+}
+
+.cta-box h3 {
+    color: var(--text-primary) !important;
+    margin-bottom: 20px;
+}
+
+.cta-box p {
+    color: var(--text-secondary) !important;
+    margin-bottom: 30px;
 }
 
 /* ===================================
